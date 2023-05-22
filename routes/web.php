@@ -23,7 +23,8 @@ Route::controller(StudentController::class)->group(function () {
     Route::get('/students', 'index');
     Route::get('/students/{id}', 'singleIndex')->whereNumber('id');
     Route::get('/students/{id}/{field}', 'field')->whereNumber('id')->whereIn('field', ['id', 'name', 'age']);
-    
+    Route::get('/students/cookie', 'setCookie');
+
     Route::post('/students', 'create');
 });
 

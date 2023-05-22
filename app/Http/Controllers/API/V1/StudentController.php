@@ -79,6 +79,30 @@ class StudentController extends Controller
         ]);
     }
 
+     /**
+     * Show the form for creating a new resource.
+     */
+    public function setCookie(Request $request): JsonResponse
+    {
+        $name = 'remember_token';
+        $value = 'my value';
+        $minutes = 60;
+        $path = '/';
+        $domim = $_SERVER['SERVER_NAME'];
+        $secure = true;
+        $httpOnly = false;
+
+        $remember_token = $request->cookie('remember_token', null);
+
+        return response()->json([
+            'success'=> true,
+            'cookie'=> $name,
+            'remember_token'=> $remember_token,
+        ])->cookie(
+            $name, $value, $minutes, $path, $domim, $secure, $httpOnly
+        );
+    }
+    
     /**
      * Store a newly created resource in storage.
      */
