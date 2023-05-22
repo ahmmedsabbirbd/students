@@ -21,15 +21,13 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 
 Route::prefix('v1')->group(function () {
-    Route::apiResource('/users', StudentController::class);
-
     Route::controller(StudentController::class)->group(function () {
         Route::get('/students', 'index');
         Route::get('/students/{id}', 'singleIndex')->whereNumber('id');
         Route::get('/students/{id}/{field}', 'field')->whereNumber('id')->whereIn('field', ['id', 'name', 'age']);
         Route::get('/students/cookie', 'setCookie');
         
-        Route::get('/students', 'create');
+        Route::post('/students', 'create');
     });
     
     Route::controller(SubmitController::class)->group(function () {
