@@ -1,11 +1,11 @@
-# Book | Laravel Installation and Folder Structure and Routing
+# Students | Requests | Response | Route (web|api) | Controller | Factories | Migrations | Migrate | Seeders 
 <!-- [Live Link](https://bmi-calculator-ostad.netlify.app) -->
 
-The book is a simple Laravel project and updated versioin. I include Routing practice, Folder Structure, and Laravel Installation.
+The Students is a simple Laravel project and updated versioin. I include Requests | Response | Route (web|api) | Controller | Factories | Migrations | Migrate | Seeders.
 
 And it's assignment projects of PHP and Larvel of OSTAD.
 
-![Laravel Properly Installed](https://raw.githubusercontent.com/ahmmedsabbirbd/book/master/public/assets/documentation/laravel-install.png)
+![wellcome project](https://raw.githubusercontent.com/ahmmedsabbirbd/book/master/public/assets/documentation/wellcome.png)
 
 ## Table of Contents
 
@@ -14,7 +14,7 @@ And it's assignment projects of PHP and Larvel of OSTAD.
 - [Demo](#demo)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
-- [Document the steps you took to install Laravel](#document-the-steps-you-took-to-install-laravel)
+- [Document of assignment projects of this project](#document-of-assignment-projects-of-this-project)
 - [Laravel Folder Structure](#laravel-folder-structure)
 - [Simple Route](#simple-route)
 - [Usage](#usage)
@@ -25,7 +25,7 @@ And it's assignment projects of PHP and Larvel of OSTAD.
 
 ## Description
 
-The book is a simple Laravel project and updated versioin. I include Routing practice, Folder Structure, and Laravel Installation.
+The Students is a simple Laravel project and updated versioin. I include Requests | Response | Route (web|api) | Controller | Factories | Migrations | Migrate | Seeders.
 
 ## Features
 | Key Features                | Description                                                  |
@@ -38,7 +38,7 @@ The book is a simple Laravel project and updated versioin. I include Routing pra
 ## Demo
 Project Home Page
 
-[![Demo Video](https://raw.githubusercontent.com/ahmmedsabbirbd/book/master/public/assets/documentation/laravel-install.png)](https://youtu.be/RYAh3rSyWHs)
+[![Demo Video](https://raw.githubusercontent.com/ahmmedsabbirbd/book/master/public/assets/documentation/wellcome.png)](https://youtu.be/RYAh3rSyWHs)
 
 ## Technologies Used
 
@@ -51,13 +51,13 @@ Clone the repository to your local machine
 
 bash
 
-    git clone https://github.com/ahmmedsabbirbd/book.git
+    git clone https://github.com/ahmmedsabbirbd/students.git
 
 Open Project folder:
 
 bash
 
-     cd book
+     cd students
 
 Install the necessary dependencies by running the following command in the project directory:
 
@@ -77,21 +77,39 @@ This will start the server and the application will be available at http://local
 
 Note: If you encounter any issues while installing or running the project locally, please refer to the project's documentation or reach out to the project maintainers for assistance.
 
-## Document the steps you took to install Laravel
+## Document of assignment projects of this project
 
-1. ## Open Laravel official web site
-     ![Open Laravel official web site](https://raw.githubusercontent.com/ahmmedsabbirbd/book/master/public/assets/documentation/laravel-offical-website.png)
+1. ## Question 1:
+     `You have a Laravel application with a form that submits user information using a `POST` request. Write the code to retrieve the 'name' input field value from the request and store it in a variable called $name.`
 
-2. ## Click Documentation
-     ![Click Documentation](https://raw.githubusercontent.com/ahmmedsabbirbd/book/master/public/assets/documentation/laravel-offical-website-documetation.png)
-3. ## Copy the code and paste my terminal
+     I create a controller and i decleare object instance "Request $request" and i accept "$request->input('name') as $name value
 
-     ![Copy the code and paste my terminal](https://raw.githubusercontent.com/ahmmedsabbirbd/book/master/public/assets/documentation/install-command.png)
-     bash
+     ![code view](https://raw.githubusercontent.com/ahmmedsabbirbd/book/master/public/assets/documentation/assignment_q-p-1.png)
      
-          composer global require laravel/installer
- 
-          laravel new book
+     And postman request and output.
+
+     ![Postman](https://raw.githubusercontent.com/ahmmedsabbirbd/book/master/public/assets/documentation/assignment_q-1.png)
+
+2. ## Question 2:
+     `In your Laravel application, you want to retrieve the value of the `'User-Agent'` header from the current request. Write the code to accomplish this and store the value in a variable called `$userAgent.``
+
+     I create a controller and i decleare object instance "Request $request" and i accept "$request->header('User-Agent') as $name value
+
+     ![code view](https://raw.githubusercontent.com/ahmmedsabbirbd/book/master/public/assets/documentation/assignment_q-w-2.png)
+     
+     And postman request and output.
+
+     ![Postman](https://raw.githubusercontent.com/ahmmedsabbirbd/book/master/public/assets/documentation/assignment_q-p-2.png)
+3. ## Question 3:
+     `You are building an API endpoint in Laravel that accepts a GET request with a `'page'` query parameter. Write the code to retrieve the value of the 'page' parameter from the current request and store it in a variable called `$page`. If the parameter is not present, set `$page` to `null`.`
+     
+     I create a controller and i decleare object instance "Request $request" and i accept "$request->query('page') as $name value
+
+     ![code view](https://raw.githubusercontent.com/ahmmedsabbirbd/book/master/public/assets/documentation/assignment_q-w-3.png)
+     
+     And postman request and output.
+
+     ![Postman](https://raw.githubusercontent.com/ahmmedsabbirbd/book/master/public/assets/documentation/assignment_q-p-3.png)
 4. ## Type my terminal and run  http://127.0.0.1:8000 This port
      bash
      
