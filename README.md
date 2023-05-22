@@ -17,6 +17,10 @@ And it's assignment projects of PHP and Larvel of OSTAD.
 - [Document of assignment projects of this project](#document-of-assignment-projects-of-this-project)
 - [Laravel Folder Structure](#laravel-folder-structure)
 - [Route](#route)
+- [Seeders](#seeders)
+- [Factories](#factories)
+- [Migrations](#migrations)
+- [Migrate](#migrate)
 - [Usage](#usage)
 - [API Documentation](#api-documentation)
 - [Contributing](#contributing)
@@ -203,6 +207,34 @@ Note: If you encounter any issues while installing or running the project locall
      4. [Route Prefixes] use Route Prefixes
 
      ![Api Route](https://raw.githubusercontent.com/ahmmedsabbirbd/students/master/public/assets/documentation/api-route.png)
+
+## Seeders
+
+1. ### Seeders
+     1. Creare 10 Fake data
+
+     ![Seeders](https://raw.githubusercontent.com/ahmmedsabbirbd/students/master/public/assets/documentation/seeders.png)
+
+## Factories
+
+1. ### Factories
+     1. id, name, age added
+
+     ![Seeders](https://raw.githubusercontent.com/ahmmedsabbirbd/students/master/public/assets/documentation/factories.png)
+## Migrations
+
+1. ### Migrations
+     1. id, name, age added
+
+     ![Seeders](https://raw.githubusercontent.com/ahmmedsabbirbd/students/master/public/assets/documentation/migrations.png)
+
+## Migrate
+
+1. ### Migrate
+     1. id, name, age added
+
+     ![Seeders](https://raw.githubusercontent.com/ahmmedsabbirbd/students/master/public/assets/documentation/migrate.png)
+
 ## Usage
 
 ### Getting Started
