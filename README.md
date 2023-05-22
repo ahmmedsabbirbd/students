@@ -5,7 +5,7 @@ The Students is a simple Laravel project and updated versioin. I include Request
 
 And it's assignment projects of PHP and Larvel of OSTAD.
 
-![wellcome project](https://raw.githubusercontent.com/ahmmedsabbirbd/book/master/public/assets/documentation/wellcome.png)
+![wellcome project](https://raw.githubusercontent.com/ahmmedsabbirbd/students/master/public/assets/documentation/wellcome.png)
 
 ## Table of Contents
 
@@ -38,7 +38,7 @@ The Students is a simple Laravel project and updated versioin. I include Request
 ## Demo
 Project Home Page
 
-[![Demo Video](https://raw.githubusercontent.com/ahmmedsabbirbd/book/master/public/assets/documentation/wellcome.png)](https://youtu.be/RYAh3rSyWHs)
+[![Demo Video](https://raw.githubusercontent.com/ahmmedsabbirbd/students/master/public/assets/documentation/wellcome.png)](https://youtu.be/RYAh3rSyWHs)
 
 ## Technologies Used
 
@@ -84,32 +84,32 @@ Note: If you encounter any issues while installing or running the project locall
 
      I create a controller and i decleare object instance "Request $request" and i accept "$request->input('name') as $name value
 
-     ![code view](https://raw.githubusercontent.com/ahmmedsabbirbd/book/master/public/assets/documentation/assignment_q-p-1.png)
+     ![code view](https://raw.githubusercontent.com/ahmmedsabbirbd/students/master/public/assets/documentation/assignment_q-p-1.png)
      
      And postman request and output.
 
-     ![Postman](https://raw.githubusercontent.com/ahmmedsabbirbd/book/master/public/assets/documentation/assignment_q-1.png)
+     ![Postman](https://raw.githubusercontent.com/ahmmedsabbirbd/students/master/public/assets/documentation/assignment_q-1.png)
 
 2. ## Question 2:
      `In your Laravel application, you want to retrieve the value of the `'User-Agent'` header from the current request. Write the code to accomplish this and store the value in a variable called `$userAgent.``
 
      I create a controller and i decleare object instance "Request $request" and i accept "$request->header('User-Agent') as $userAgent value
 
-     ![code view](https://raw.githubusercontent.com/ahmmedsabbirbd/book/master/public/assets/documentation/assignment_q-w-2.png)
+     ![code view](https://raw.githubusercontent.com/ahmmedsabbirbd/students/master/public/assets/documentation/assignment_q-w-2.png)
      
      And postman request and output.
 
-     ![Postman](https://raw.githubusercontent.com/ahmmedsabbirbd/book/master/public/assets/documentation/assignment_q-p-2.png)
+     ![Postman](https://raw.githubusercontent.com/ahmmedsabbirbd/students/master/public/assets/documentation/assignment_q-p-2.png)
 3. ## Question 3:
      `You are building an API endpoint in Laravel that accepts a GET request with a `'page'` query parameter. Write the code to retrieve the value of the 'page' parameter from the current request and store it in a variable called `$page`. If the parameter is not present, set `$page` to `null`.`
      
      I create a controller and i decleare object instance "Request $request" and i accept "$request->query('page') as $page value
 
-     ![code view](https://raw.githubusercontent.com/ahmmedsabbirbd/book/master/public/assets/documentation/assignment_q-w-3.png)
+     ![code view](https://raw.githubusercontent.com/ahmmedsabbirbd/students/master/public/assets/documentation/assignment_q-w-3.png)
      
      And postman request and output.
 
-     ![Postman](https://raw.githubusercontent.com/ahmmedsabbirbd/book/master/public/assets/documentation/assignment_q-p-3.png)
+     ![Postman](https://raw.githubusercontent.com/ahmmedsabbirbd/students/master/public/assets/documentation/assignment_q-p-3.png)
 4. ## Question 4:
      
      Create a JSON response in Laravel with the following data:
@@ -124,22 +124,22 @@ Note: If you encounter any issues while installing or running the project locall
      
      I create a controller, it's StudentController and I have singleIndext method and i return single student data.
 
-     ![code view](https://raw.githubusercontent.com/ahmmedsabbirbd/book/master/public/assets/documentation/assignment_q-w-4.png)
+     ![code view](https://raw.githubusercontent.com/ahmmedsabbirbd/students/master/public/assets/documentation/assignment_q-w-4.png)
      
      And postman request and output.
 
-     ![Postman](https://raw.githubusercontent.com/ahmmedsabbirbd/book/master/public/assets/documentation/assignment_q-p-4.png)
+     ![Postman](https://raw.githubusercontent.com/ahmmedsabbirbd/students/master/public/assets/documentation/assignment_q-p-4.png)
 5. ## Question 5:
      
      `You are implementing a file upload feature in your Laravel application. Write the code to handle a file upload named `'avatar'` in the current `request` and store the uploaded file in the `'public/uploads'` directory. Use the `original filename` for the uploaded file.`
      
      I create a controller and i decleare object instance "Request $request" and i accept "$request->file('avatar') as $avatar value and i get photo current name name (getClientOriginalName()) this method in php laravel and uploaded photo my "public/upload" "$avatar->move(public_path('/uploads'), $avatarName);" this method
 
-     ![code view](https://raw.githubusercontent.com/ahmmedsabbirbd/book/master/public/assets/documentation/assignment_q-w-5.png)
+     ![code view](https://raw.githubusercontent.com/ahmmedsabbirbd/students/master/public/assets/documentation/assignment_q-w-5.png)
      
      And postman request and output.
 
-     ![Postman](https://raw.githubusercontent.com/ahmmedsabbirbd/book/master/public/assets/documentation/assignment_q-p-5.png)
+     ![Postman](https://raw.githubusercontent.com/ahmmedsabbirbd/students/master/public/assets/documentation/assignment_q-p-5.png)
 
 6. ## Question 6:
      
@@ -147,12 +147,12 @@ Note: If you encounter any issues while installing or running the project locall
      
      I create a controller and i decleare object instance "Request $request" and i accept "$request->cookie('remember_token') as $rememberToken value
 
-     ![code view](https://raw.githubusercontent.com/ahmmedsabbirbd/book/master/public/assets/documentation/assignment_q-w-6.png)
+     ![code view](https://raw.githubusercontent.com/ahmmedsabbirbd/students/master/public/assets/documentation/assignment_q-w-6.png)
      
      And postman request and output.
 
-     ![Postman](https://raw.githubusercontent.com/ahmmedsabbirbd/book/master/public/assets/documentation/assignment_q-p-6-v1.png)
-     ![Postman](https://raw.githubusercontent.com/ahmmedsabbirbd/book/master/public/assets/documentation/assignment_q-p-6-v2.png)
+     ![Postman](https://raw.githubusercontent.com/ahmmedsabbirbd/students/master/public/assets/documentation/assignment_q-p-6-v1.png)
+     ![Postman](https://raw.githubusercontent.com/ahmmedsabbirbd/students/master/public/assets/documentation/assignment_q-p-6-v2.png)
 7. ## Question 7:
      
      `Create a route in Laravel that handles a `POST` request to the `'/submit'` URL. Inside the route closure, retrieve the `'email'` input parameter from the request and store it in a variable called `$email`. Return a JSON response with the following data:`
@@ -171,16 +171,16 @@ Note: If you encounter any issues while installing or running the project locall
      
      I create SubmitController and i decleare object instance "Request $request" and i accept "$request->input('email') and store it $email value
 
-     ![code view](https://raw.githubusercontent.com/ahmmedsabbirbd/book/master/public/assets/documentation/assignment_q-w-7.png)
+     ![code view](https://raw.githubusercontent.com/ahmmedsabbirbd/students/master/public/assets/documentation/assignment_q-w-7.png)
      
      And postman request and output.
 
-     ![Postman](https://raw.githubusercontent.com/ahmmedsabbirbd/book/master/public/assets/documentation/assignment_q-p-7.png)
+     ![Postman](https://raw.githubusercontent.com/ahmmedsabbirbd/students/master/public/assets/documentation/assignment_q-p-7.png)
  
 
 ## Laravel Folder Structure
      
-![Laravel Folder Structure](https://raw.githubusercontent.com/ahmmedsabbirbd/book/master/public/assets/documentation/folder-structure.png)
+![Laravel Folder Structure](https://raw.githubusercontent.com/ahmmedsabbirbd/students/master/public/assets/documentation/folder-structure.png)
 
 1. ### `app`:
      This folder contains the core of your Laravel application, including its models, controllers, service providers, and other application-specific code.
@@ -210,11 +210,11 @@ Note: If you encounter any issues while installing or running the project locall
 
 1. ### I create simple route and it's named "world".
 
-     ![Simple Route](https://raw.githubusercontent.com/ahmmedsabbirbd/book/master/public/assets/documentation/world.png)
+     ![Simple Route](https://raw.githubusercontent.com/ahmmedsabbirbd/students/master/public/assets/documentation/world.png)
 
 2. ### return "Hello, World".
 
-     ![Simple Route Output](https://raw.githubusercontent.com/ahmmedsabbirbd/book/master/public/assets/documentation/world-output.png)
+     ![Simple Route Output](https://raw.githubusercontent.com/ahmmedsabbirbd/students/master/public/assets/documentation/world-output.png)
 ## Usage
 
 ### Getting Started
